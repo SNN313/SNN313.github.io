@@ -1,0 +1,250 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 31px;   
+}
+
+header {
+  background-color: green;
+  font-family: 'Frijole', cursive;
+}
+
+h1 {
+  font-size: 48px;
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+
+
+.container {
+  width: 100%;
+  height: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/yellowred1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#catering-form {
+  background-color: rgba(105, 59, 6, 0.424);
+  color: whitesmoke;
+}
+
+.row {
+  display: flex;
+}
+
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-8,
+.col-10,
+.col-12 {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.col-2 {
+  flex-basis: 16.6666667%;
+  margin-right: 1rem;
+}
+
+.col-3 {
+  flex-basis: 25%;
+}
+
+.col-4 {
+  flex-basis: 33.3333333%;
+}
+
+.col-5 {
+  flex-basis: 41.6666667%;
+  margin-left: 0.6rem;
+  margin-right: 0.2rem;
+}
+
+.col-6 {
+  flex-basis: 50%;
+}
+
+.col-8 {
+  flex-basis: 66.6666667%;
+}
+
+.col-10  {
+  flex-basis: 83.3333333%;
+}
+
+.col-12  {
+  flex-basis: 100%;
+}
+
+.col-12 label {
+  display: block;
+}
+
+.form-row {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.col-4 input,
+.col-5 input,
+.col-8 input, 
+.col-10 input,
+.col-12 input {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 0.50rem;
+  border: #CCC 1px solid;
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+  h2 {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  }
+
+.email {
+  margin-left: 2.5rem;
+  margin-right: 1rem;
+}
+
+span {
+font-size: 14px;
+margin-left: 0.15rem;
+}
+
+.time {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.length {
+  margin-left: 1rem;
+}
+
+.alt-time {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+.option {
+font-size: 17px;
+}
+
+.final,
+  button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  h5 {
+  font-size: 28px;
+  padding-top: 30px;
+}
+
+  a {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  }
+
+.footer {
+  background-color: green;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  height: 198px;
+}
+
+li {
+  font-size: 28px;
+}
+
+.footer img {
+  padding-top: 140px;
+}
+
+footer {
+  text-align: left;
+  font-size: 14px;
+  padding-top: 170px;
+}
+
+.hidden-footer {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .row{
+  display: block;
+  }
+
+  .mobile1 {
+  display: inline;
+  }
+
+  .mobile2 {
+  display:inline;
+  }
+
+  nav ul {
+  display:inline;
+  justify-content: left;
+  }
+
+  .container {
+  height: 1628px;
+}
+
+.footer {
+  display: none;
+}
+
+.hidden-footer {
+  display: block;
+  background-color: green;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  height: 250px;
+  padding-top:   0.5rem;
+}
+
+em {
+  font-size: 0.85rem;
+}
+}
